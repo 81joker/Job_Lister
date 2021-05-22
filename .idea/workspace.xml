@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4a569c2-f413-4568-9ebc-4ff8e75fe1c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1sms4Bwxa4vUhuLUx7fw34Yi7xU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4a569c2-f413-4568-9ebc-4ff8e75fe1c4" name="Default Changelist" comment="" />
+      <created>1621488906630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621488906630</updated>
+      <workItem from="1621488913791" duration="1738000" />
+      <workItem from="1621580366759" duration="1668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="282" key="NewPhpClassDialog" timestamp="1621581214456">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="511" y="282" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1621489286559" />
+    <state x="568" y="282" key="NewPhpClassDialog/0.0.1600.900@0.0.1600.900" timestamp="1621581214456" />
+    <state x="433" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1621580369966">
+      <screen x="0" y="23" width="1600" height="807" />
+    </state>
+    <state x="390" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1621488915065" />
+    <state x="433" y="278" key="com.intellij.ide.util.TipDialog/0.23.1600.807@0.23.1600.807" timestamp="1621580369966" />
+  </component>
+</project>
