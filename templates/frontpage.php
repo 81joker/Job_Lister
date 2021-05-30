@@ -3,7 +3,7 @@
 
 <div class="jumbotron">
     <h1>Jumbotron heading</h1>
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    <!-- <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p> -->
     <form method="get" action="index.php">
         <select name="category" class="form-control">
             <option value="0">Chios Category</option>
@@ -24,22 +24,9 @@
             <h4><?= $job->job_title ?></h4>
             <p><?= $job->description ?></p>
         </div>
-        <div class="btn btn-2"><a href="" class="btn btn-default">View</a></div>
+        <div class="btn btn-2"><a href="job.php?id=<?= $job->id; ?>" class="btn btn-default">View</a></div>
     </div>
 <?php endforeach; ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
 
 <?php include_once('inc/footer.php') ?>
