@@ -11,9 +11,13 @@ if ($_POST['submit']) {
     $data['location']      = $_POST['location'];
     $data['contact_user']  = $_POST['contact_user'];
     $data['contact_email'] = $_POST['contact_email'];
+    if ($job->create($data)) {
+        redirect('index.php', 'Your job has been listed ', 'success');
+    } else {
+        redirect('index.php', 'Something went worng ', 'error');
+    }
 }
 
-echo "git hup";
 
 $template = new Template('templates/job-create.php');
 $template->categories = $job->category();

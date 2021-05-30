@@ -10,6 +10,19 @@
     <br><br>
     <a href="index.php" class="">Go Back</a>
     <br><br>
+    <div class="well">
+
+        <a href="edit.php?id= <?= $job->id ?>" class=" btn btn-default">Edit</a>
+
+        <form action="job.php" method="post" class="" style="display:inline">
+            <input type="hidden" name="del_id" value="<?= $job->id ?>">
+
+            <input type="submit" value="Delete" class="btn btn-danger">
+
+        </form>
+
+
+    </div>
 
 
 </ul>
