@@ -10,9 +10,10 @@ if (isset($_POST['del_id'])) {
         redirect('index.php', 'Job Not Deleted', 'error');
     }
 }
-$template = new Template('templates/job-single.php');
-$id_job = isset($_GET['id']) ? $_GET['id'] : null;
 
+$template = new Template('templates/job-single.php');
+
+$id_job = isset($_GET['id']) ? $_GET['id'] : null;
 $template->job = $job->getJob($id_job);
 echo $template;
 
